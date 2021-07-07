@@ -30,6 +30,10 @@
         </div>
       </div>
       @endforeach
+      
+      <div class="d-flex justify-conter mb-5">
+          {{$posts->links()}}
+      </div>
     </div>
 
 
